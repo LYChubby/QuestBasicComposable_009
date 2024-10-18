@@ -83,7 +83,8 @@ fun BasicCompose(Disney: Modifier = Modifier) {
 
         Image(
             painter = painterResource(id = R.drawable.foto),
-            contentDescription = null
+            contentDescription = null,
+            modifier = Modifier.size(300.dp)
         )
     }
 }
