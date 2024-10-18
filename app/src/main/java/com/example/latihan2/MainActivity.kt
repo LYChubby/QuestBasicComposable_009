@@ -69,7 +69,8 @@ fun BasicCompose(Disney: Modifier = Modifier) {
 
         Text(
             text = "Nama : ",
-            fontSize = 25.sp
+            fontSize = 25.sp,
+            fontWeight = FontWeight.Bold
         )
 
         Text(
