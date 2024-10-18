@@ -77,7 +77,8 @@ fun BasicCompose(Disney: Modifier = Modifier) {
         )
 
         Text(
-            text = "20220140009"
+            text = "20220140009",
+            fontSize = 25.sp
         )
 
         Image(
