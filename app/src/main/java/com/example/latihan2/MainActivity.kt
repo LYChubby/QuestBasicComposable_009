@@ -65,6 +65,10 @@ fun BasicCompose(Disney: Modifier = Modifier) {
             contentDescription = null,
             modifier = Modifier.size(300.dp)
         )
+
+        Text(
+            text = "Nama"
+        )
     }
 }
 
