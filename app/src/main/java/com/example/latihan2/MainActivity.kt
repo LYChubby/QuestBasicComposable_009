@@ -84,6 +84,7 @@ fun BasicCompose(Disney: Modifier = Modifier) {
             text = "20220140009",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
+            color = Color.Red
         )
 
         Image(
