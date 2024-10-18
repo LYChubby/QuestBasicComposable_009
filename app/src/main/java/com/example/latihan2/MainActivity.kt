@@ -51,13 +51,14 @@ fun BasicCompose(Disney: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally) {
         Text(text = "Indonesia", modifier = Disney,
             fontSize = 70.sp,
-            color = Color.Red,
-            fontWeight = FontWeight.Bold
+            color = Color.Black,
+            fontWeight = FontWeight.Bold,
+            fontStyle = FontStyle.Italic
         )
         Text(text = "Versus",
             style = TextStyle(
                 fontSize = 50.sp,
-                color = Color.Blue,
+                color = Color.Red,
                 fontStyle = FontStyle.Italic
             )
         )
