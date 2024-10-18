@@ -67,7 +67,8 @@ fun BasicCompose(Disney: Modifier = Modifier) {
         )
 
         Text(
-            text = "Nama"
+            text = "Nama : ",
+            fontSize = 25.sp
         )
 
         Text(
