@@ -69,6 +69,10 @@ fun BasicCompose(Disney: Modifier = Modifier) {
         Text(
             text = "Nama"
         )
+
+        Text(
+            text = "Fauzi Taufik"
+        )
     }
 }
 
