@@ -77,6 +77,7 @@ fun BasicCompose(Disney: Modifier = Modifier) {
             text = "Fauzi Taufik",
             fontSize = 25.sp,
             fontStyle = FontStyle.Italic,
+            color = Color.Red
         )
 
         Text(
