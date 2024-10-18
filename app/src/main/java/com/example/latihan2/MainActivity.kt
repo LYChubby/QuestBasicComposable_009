@@ -77,6 +77,11 @@ fun BasicCompose(Disney: Modifier = Modifier) {
         Text(
             text = "20220140009"
         )
+
+        Image(
+            painter = painterResource(id = R.drawable.foto),
+            contentDescription = null
+        )
     }
 }
 
